@@ -58,15 +58,25 @@ pre {
 	padding-left:0;
 	}
 	
-.title{
-	height: 30vh;
-	text-align: center;
-	
-	}
+.titlespace{
+  width: 100%; 
+  height: 40vh; 
+  /*background-color: darkslateblue;*/
+    /*opacity: .9;*/
+    /*background: url(../BackgroundPictures/lake.png) no-repeat; */
+  position: relative;
+}
 
-	
-
-	
+.titletext{
+  position: absolute; 
+  left: 12%; 
+  top: 6vh; 
+  width: 75%; 
+  height: 84px; 
+  display: table;
+text-align: center;
+    color:black;
+}
 .fafabutton {
 	position: absolute;
 	right: 0;
@@ -86,13 +96,13 @@ pre {
 @media (max-width: 768px) {
   .Navblocks {
     height:35vh;
-    margin-top: 5%;
+    /*margin-top: 5%;*/
     align: center;
-  	}}
+    }}
 @media (min-width: 768px) {
   .Navblocks {
    height: 40vh;
-   margin-top: 10%;
+   /*margin-top: 10%;*/
   }}
 
 .Navblocks{
@@ -104,13 +114,13 @@ pre {
 @media (max-width: 768px) {
   .Navblocks2 {
     height:35vh;
-    margin-top: 5%;
+    /*margin-top: 5%;*/
   	}}
   
 @media (min-width: 768px) {
   .Navblocks2 {
    height: 40vh;
-   margin-bottom: 5px;
+   /*margin-bottom: 5px;*/
   }}
 
 .Navblocks2{
