@@ -1,6 +1,7 @@
 /* FONT CODE*/
 body{    
     font-family: 'Open Sans', sans-serif;
+    background-color: white/*#eceff1*/;
 }
 
 h1 {
@@ -8,43 +9,26 @@ h1 {
 	/*font-size: 24px;
 	font-style: normal;
 	font-variant: normal;*/
-	font-weight: 100;
+	font-weight: 300;
 	/*line-height: 200px;*/
-
 }
-h3 {
-	font-family: 'Lato', sans-serif;
-	/*font-size: 14px;*/
+
+quote {
+	font-family: 'Source Code Pro', sans-serif;
+	font-size: 14px;
 	font-style: italic;
 	/*font-variant: normal;*/
 	font-weight: 100;
-	/*line-height: 15px;*/
-
-}
-p {
-	font-family: Lato;
-	font-size: 14px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 400;
-	line-height: 20px;
-}
-blockquote {
-	font-family: Lato;
-	font-size: 21px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 400;
 	line-height: 30px;
 }
-pre {
-	font-family: Lato;
-	font-size: 13px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 400;
-	line-height: 18px;
-}
+
+h4 {
+	font-family: 'Source Code Pro', sans-serif;
+	/*font-size: 14px;
+	font-style: italic;
+	font-variant: normal;*/
+	font-weight: 300;
+    /*line-height: 30px;*/}
 
 /*PAGE CODE*/
 
@@ -57,74 +41,73 @@ pre {
   	padding-right:0;
 	padding-left:0;
 	}
-	
+
+/*TOP BANNER*/	
+
 .titlespace{
   width: 100%; 
-  height: 40vh; 
-  /*background-color: darkslateblue;*/
-    /*opacity: .9;*/
-    /*background: url(../BackgroundPictures/lake.png) no-repeat; */
-  position: relative;
+  height: 65vh; 
+  position: relative;       
+  /*background-color: darkslateblue;
+    opacity: .9;
+    background: url(../BackgroundPictures/lake.png) no-repeat; */
 }
 
 .titletext{
   position: absolute; 
+  left: 35%; 
+  top: 15vh; 
+  width: 30%; 
+  height: 84px; 
+  display: table;
+  text-align: center;
+  color:black;
+}
+.quotation{
+    position: absolute; 
+    width:50%;
+    text-align: center;
+    left: 25%; 
+top: 40vh; 
+ 
+  display: table;
+
+  color:black;
+}
+
+.subtitlespace{
+  width: 100%; 
+  height: 20vh; 
+  position: relative;       
+}
+
+.subtitletext{
+  position: absolute; 
   left: 12%; 
   top: 6vh; 
   width: 75%; 
-  height: 84px; 
+  height: 10px; 
   display: table;
-text-align: center;
-    color:black;
+  text-align: center;
+  color:black;
+   
 }
-.fafabutton {
-	position: absolute;
-	right: 0;
-	bottom: 0;
-	color: grey;
-	opacity: 0.4;
-	}
-	
-.fafabutton:hover {
-	position: absolute;
-	right: 0;
-	bottom: 0;
-	color: grey;
-	opacity:1;
-	}
+
+
+/* NAVIGATION BANNER */
 
 @media (max-width: 768px) {
   .Navblocks {
-    height:35vh;
-    /*margin-top: 5%;*/
-    align: center;
+    height:20vh;
+    
     }}
 @media (min-width: 768px) {
   .Navblocks {
-   height: 40vh;
-   /*margin-top: 10%;*/
+   height: 20vh;
   }}
 
 .Navblocks{
-	border: 1px solid dimgrey;
-	width 100%;
-	text-align: center; 
-	}
-	
-@media (max-width: 768px) {
-  .Navblocks2 {
-    height:35vh;
-    /*margin-top: 5%;*/
-  	}}
-  
-@media (min-width: 768px) {
-  .Navblocks2 {
-   height: 40vh;
-   /*margin-bottom: 5px;*/
-  }}
-
-.Navblocks2{
-	border: 1px solid dimgrey;
+	border: 1px solid black;
 	width 100%;
 	text-align: center; 
 	}	
@@ -134,14 +117,30 @@ text-align: center;
 	z-index: -99; 
 	}
 
-.img-responsive{
-    position: absolute;
-    top: 0; bottom:0; left: 0; right:0;
-    margin: auto;
+/* MORE BUTTONS */
+
+.fafabutton {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	color: black;
+	opacity: 0.4;
+
+	}
+	
+.fafabutton:hover {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	color: grey;
+	opacity:1;
+
 	}
 
+/* SOCIAL MEDIA LINKS */
+
 .socialmedia {
-	margin-top: 5px;
+	margin-top: 10px;
 	margin-bottom: 10px;
 	text-align: center;
 	}
