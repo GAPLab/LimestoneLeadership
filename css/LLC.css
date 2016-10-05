@@ -122,25 +122,29 @@ top: 40vh;
 .fafabutton {
 	position: absolute;
 	right: 0;
-	bottom: 0;
-	color: black;
-	opacity: 0.4;
+    bottom:0;
+    top:-1;
+    left:0;
+	opacity: 0.3;
+    line-height: 100px;
+    
+   
 
 	}
 	
 .fafabutton:hover {
 	position: absolute;
-	right: 0;
-	bottom: 0;
-	color: grey;
-	opacity:1;
+	right: 1;
+	bottom: 1;
+
+	opacity:.8;
 
 	}
 
 /* SOCIAL MEDIA LINKS */
 
 .socialmedia {
-	margin-top: 10px;
+	margin-top: 20px;
 	margin-bottom: 10px;
 	text-align: center;
 	}
