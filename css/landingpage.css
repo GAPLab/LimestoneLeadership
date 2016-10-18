@@ -74,6 +74,9 @@ p {
 	padding-left:0;
 	}
 
+
+
+
 .left_side 
       {
      float: left;
@@ -84,17 +87,30 @@ p {
 
      background-color: #FFFFFF;
      color: #000000; 
+          height: 100vh;
       }
 .right_side 
      {
      float:right;
-     color: #000000;
-     background-color: #FFFFFF;
-     background-image: "limestone.jpg"
+
+
      margin: 0px 0px 0px 0px;
      padding:0px 0px 0px 205px;
+         
+
+
 
      }	
+img {
+	object-fit:contain;
+	object-position: 100% 150%; 
+	object-position: 0 0; /* positioned top left of the content box */
+    height: 100vh;
+
+
+}
+
+
 /*@media (max-width: 650px) {
     .right_side{
        width:100%;
@@ -113,10 +129,18 @@ p {
     
     .right_side{
         padding:0px 0px 0px 0px;
+        height: 75vh;
     }
+    img { 
+      
+    width: 100%;
+        object-fit: contain;
+    }
+    .mobile_header{
+    padding-top: 10px;
+        padding-bottom: 20px;
+}
     
-    
-
 }
 
 @media(min-width:750px){
@@ -147,9 +171,7 @@ p {
 
 
 }
-.mobile_header{
-    padding-top: 10px;
-}
+
 
 .titlebox{
     border-style: solid;
@@ -247,7 +269,7 @@ p {
    
   /*background-color: darkslateblue;
     opacity: .9;
-    background: url(../BackgroundPictures/lake.png) no-repeat; */
+     */
 }
 
 .text{
