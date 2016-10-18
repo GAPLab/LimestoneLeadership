@@ -40,6 +40,10 @@ h5 {
 	font-weight: 100;
     /*line-height: 30px;*/
 text-align:center;}
+h5:hover{
+    color: darkgrey;
+}
+
 h7 {
 	font-family: 'Lato', sans-serif;
 	font-size: 10px;/*
@@ -47,7 +51,11 @@ h7 {
 	font-variant: normal;*/
 	font-weight: 100;
     /*line-height: 30px;*/
-text-align:center;}
+text-align:center;
+color: black;}
+
+h7:hover
+{color: darkgrey;}
 
 h2 {
 	font-family: 'Merriweather', serif;
@@ -69,6 +77,15 @@ p {
 	font-weight: 300;
 	/*line-height: 200px;*/
 }
+a:link { 
+    color: black;
+}
+
+a:hover { 
+color: darkgrey;
+    text-decoration: none;
+}
+
 
 /*PAGE CODE*/
 
@@ -271,14 +288,6 @@ p {
  background-color: #FFFFFF;
 
 
-}
-a:link { 
-    color: black;
-}
-
-a:hover { 
-color: darkgrey;
-    text-decoration: none;
 }
 
 hr {
