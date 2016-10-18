@@ -74,6 +74,9 @@ p {
 	padding-left:0;
 	}
 
+
+
+
 .left_side 
       {
      float: left;
@@ -90,7 +93,6 @@ p {
      float:right;
      color: #000000;
      background-color: #FFFFFF;
-     background-image: "limestone.jpg"
      margin: 0px 0px 0px 0px;
      padding:0px 0px 0px 205px;
 
