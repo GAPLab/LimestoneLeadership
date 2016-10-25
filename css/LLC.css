@@ -165,6 +165,22 @@ color: darkgrey;
 }
 
 /*TOP BANNER*/	
+/*mobile top*/
+
+
+
+.titlebox{
+    border-style: solid;
+    border-color: darkgray;
+    border-width: 1px;
+    border-radius: 2px;
+    
+}
+
+
+
+
+/* non mobile top*/
 
 .titlespace{
  width: 90%;
@@ -182,18 +198,12 @@ color: darkgrey;
 
 
 }
+
 .mobile_header{
     padding-top: 10px;
 }
 
-.titlebox{
-    border-style: solid;
-    border-color: darkgray;
-    border-width: 1px;
-    border-radius: 2px;
-    padding-left: 6px;
-    padding-right: 10px;
-}
+
 
 .quotation{
     position: absolute; 
