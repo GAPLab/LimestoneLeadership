@@ -203,6 +203,18 @@ button{
 }
 
 
+
+button{
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    border-radius: 2px;
+    padding-left: 6px;
+    padding-right: 10px;
+    background-color: white;
+    
+}
+
 .titlespace{
  width: 90%;
   height: 170px; 
