@@ -154,7 +154,7 @@ img {
     
     .right_side{
         padding:0px 0px 0px 0px;
-        height: 75vh;
+        height: 65vh;
     }
     img { 
       
@@ -163,7 +163,7 @@ img {
     }
     .mobile_header{
     padding-top: 10px;
-        padding-bottom: 20px;
+        padding-bottom: 10px;
 }
     
 }
@@ -242,13 +242,7 @@ button{
     padding-right: 10px;
 }
 
-.quotation{
-    position: absolute; 
-    top: 30vh; 
-    display: table;
-    color:black;
-    text-align: center;
-}
+
 
 .words{
     height: 80vh;
@@ -259,33 +253,6 @@ button{
 
 
 /* NAVIGATION BANNER */
-
-
-
-/*
-@media (min-width: 992px) {
-    .right_side{
-        width:85%;
-    }
-    }
-*/
-/*@media (min-width: 992px) {
-    .right_side{
-        width:75%;
-    }
-    }
-
-@media (max-width: 1119px) {
-    .right_side{
-        width:80%;
-    }}
-
-
-@media (min-width: 1200px) {
-    .right_side{
-        width:80%;
-    }}*/
-
 
 
 .Navblocks{
