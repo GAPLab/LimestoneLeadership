@@ -167,7 +167,16 @@ color: darkgrey;
 /*TOP BANNER*/	
 /*mobile top*/
 
-
+button{
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    border-radius: 2px;
+    padding-left: 6px;
+    padding-right: 10px;
+    background-color: white;
+    
+}
 
 .titlebox{
     border-style: solid;
