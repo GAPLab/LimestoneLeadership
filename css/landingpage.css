@@ -191,6 +191,17 @@ button{
     background-color: white;
     
 }
+.dropdown{
+    text-align: center;
+}
+
+.dropdown-menu {
+  left: 50%;
+  right: auto;
+  text-align: center;
+  transform: translate(-50%, 0);
+}
+
 
 .titlespace{
  width: 90%;

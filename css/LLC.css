@@ -30,7 +30,9 @@ h4 {
 	font-variant: normal;*/
 	font-weight: 100;
     /*line-height: 30px;*/
-    text-align:center;}
+    text-align:center;
+
+}
 
 h5 {
 	font-family: 'Lato', sans-serif;
@@ -110,6 +112,8 @@ color: darkgrey;
 
 
 
+
+
 .left_side 
       {
      float: left;
@@ -166,7 +170,10 @@ color: darkgrey;
 
 /*TOP BANNER*/	
 /*mobile top*/
-
+.header {
+    width: 100%;
+    background-color: aqua;
+}
 button{
     border-style: solid;
     border-color: white;
@@ -177,15 +184,28 @@ button{
     background-color: white;
     
 }
+.dropdown{
+    text-align: center;
+}
+
+.dropdown-menu {
+  left: 50%;
+  right: auto;
+  text-align: center;
+  transform: translate(-50%, 0);
+}
+
 
 .titlebox{
     border-style: solid;
     border-color: darkgray;
     border-width: 1px;
     border-radius: 2px;
-        padding-left: 6px;
+    padding-left: 6px;
     padding-right: 10px;
 }
+
+
 
 
 
