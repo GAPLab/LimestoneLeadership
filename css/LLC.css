@@ -30,8 +30,7 @@ h4 {
 	font-variant: normal;*/
 	font-weight: 100;
     /*line-height: 30px;*/
-    text-align:center;
-
+    
 }
 
 h5 {
@@ -42,6 +41,7 @@ h5 {
 	font-weight: 100;
     /*line-height: 30px;*/
 text-align:center;}
+
 h5:hover{
     color: darkgrey;
 }
@@ -181,12 +181,17 @@ button{
 }
 .dropdown{
     text-align: center;
+   
+    
 }
 .dropdown-menu {
   left: 50%;
   right: auto;
   text-align: center;
   transform: translate(-50%, 0);
+}
+.title{
+   text-align:center;
 }
 .titlebox{
     border-style: solid;
@@ -290,13 +295,8 @@ button{
   text-align: left;
   color:black;
  background-color: #FFFFFF;
-    
+    }
 
-
-}
-.instagram{
-    align-content: center;
-}
 
 hr {
     display: block;
